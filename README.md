@@ -134,7 +134,9 @@ BRAIN_TUMOUR_UI/
 ├── text.py # UI content for sidebar and descriptions
 
 ├── requirements.txt # Dependencies
+
 │
+
 ├── model/
 
 │ └── brain_tumor_model.h5 # Trained CNN model
@@ -159,6 +161,7 @@ BRAIN_TUMOUR_UI/
 1️⃣ Create Virtual Environment (Optional but Recommended)
 
 bash
+
 python -m venv venv
 
 Windows:
