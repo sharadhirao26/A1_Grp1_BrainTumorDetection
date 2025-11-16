@@ -124,20 +124,35 @@ https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detect
 
 📁 Folder Structure
 BRAIN_TUMOUR_UI/
+
 │
+
 ├── app.py # Streamlit frontend
+
 ├── predictor.py # Model loading, prediction & Grad-CAM logic
+
 ├── text.py # UI content for sidebar and descriptions
+
 ├── requirements.txt # Dependencies
+
 │
+
 ├── model/
+
 │ └── brain_tumor_model.h5 # Trained CNN model
+
 │
+
 ├── Images/ # Optional images for documentation
+
 │
+
 ├── temp.jpg # Auto-generated uploaded file
+
 ├── gradcam_output.jpg # Auto-generated heatmap output
+
 └── BrainTumorHackathon.ipynb # Full training + SVM comparison notebook
+
 
 ---
 
@@ -167,19 +182,30 @@ Streamlit will launch at:
 
 🖥️ Using the App
 Open the left sidebar
+
 Read about brain tumors (intro, symptoms, causes)
+
 Click Open Prediction Console
+
 Upload an MRI image
+
 Click Predict
+
 Wait for progress bar
+
 View:
+
 Tumor / No Tumor
+
 Confidence
+
 Grad-CAM heatmap (if tumor detected)
 
 ---
 
 👨‍💻 Developers
 Sharadhi Rao
+
 Siya Amrutkar
+
 Ayushi Bindroo
