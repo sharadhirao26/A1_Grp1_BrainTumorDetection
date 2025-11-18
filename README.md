@@ -32,6 +32,8 @@ The objective of this project is to develop an accurate, transparent, and user-f
 Dataset Source:  
 https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
 ---
 
 🧠 Algorithms & Models Used
