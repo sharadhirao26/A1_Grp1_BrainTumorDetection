@@ -45,7 +45,7 @@ https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detect
 - Training:
   - Loss: Categorical Cross-Entropy  
   - Optimizer: Adam  
-  - Achieved Accuracy: **95–98%**  
+  - Achieved Accuracy: **80–85%**  
 - Output: **Tumor / No Tumor + Confidence score**
 
 **2️⃣ Grad-CAM (Explainable AI)**
@@ -59,7 +59,7 @@ https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detect
 - Grayscale + Resize (64×64)  
 - PCA for dimensionality reduction  
 - SVM (RBF Kernel) for classification  
-- Achieved Accuracy: **~74.51%**
+- Achieved Accuracy: **~74%**
 
 **Conclusion:** CNN significantly outperforms SVM due to spatial learning capability.
 
@@ -68,13 +68,13 @@ https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detect
  📊 Results & Performance
 
 ✔ **CNN Results**
-- Accuracy: **95–98%**
+- Accuracy: **80-85%**
 - High precision & recall  
 - Grad-CAM clearly highlights tumor regions  
 - Reliable predictions on unseen data  
 
 ✔ **SVM Results**
-- Accuracy: **74.51%**
+- Accuracy: **74%**
 - Overfits easily  
 - Fails to capture MRI spatial patterns  
 - Lower reliability  
